@@ -1,0 +1,55 @@
+/* Navigation Menu */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #e63946;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  border: 2px solid #ddd;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* List Styling */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  color: #222;
+}
+
+ol {
+  margin-left: 20px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

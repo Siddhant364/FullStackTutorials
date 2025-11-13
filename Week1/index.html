@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanEdge – Modern Streetwear</title>
+
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal CSS -->
+  <style>
+    /* UNIVERSAL SELECTOR */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* ELEMENT SELECTORS */
+    h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    div {
+      margin-top: 15px;
+    }
+
+    /* CLASS SELECTOR */
+    .highlight {
+      color: #e63946;
+      font-weight: bold;
+    }
+
+    /* ID SELECTOR */
+    #about {
+      border: 2px solid #222;
+      padding: 15px;
+      background-color: #f8f8f8;
+    }
+
+    /* ATTRIBUTE SELECTOR */
+    input[type="text"] {
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="background-color: #111; color: white; text-align: center; padding: 20px;">  <!-- INLINE CSS -->
+    <h1>UrbanEdge</h1>
+    <p class="highlight">Your Style. Your Attitude.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <section id="collections">
+        <h2>Our Latest Collections</h2>
+        <ul>
+          <li>Men’s Streetwear</li>
+          <li>Women’s Fashion</li>
+          <li>Winter Essentials</li>
+          <li>Accessories</li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <h2>About UrbanEdge</h2>
+        <p>
+          UrbanEdge is a modern Nepali clothing brand blending street style with minimal design.
+          Each piece is made for comfort, confidence, and bold individuality.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UrbanEdge Clothing | Designed by Siddhant KC</p>
+  </footer>
+</body>
+</html>
