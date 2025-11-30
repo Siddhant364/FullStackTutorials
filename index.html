@@ -5,46 +5,98 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Personal Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-	<header>
-		<h1>Siddhant Kc</h1>
-		<nav>
-			<a href="#about">About</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
-		</nav>
-	</header>
+	<header id="hero">
+		<video autoplay loop muted id="video-background">
+<source src="video&photo/videos.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<nav class="navbar"> 
+	<img src="video&photo/sid.jpg" alt="" class="logo">
+	<ul class="nav-list">
+		<li><a href="#about">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
 
-	<section id="about">
-		<h2>I am Siddhant Kc.Full stack Developer</h2>
-		
-	</section>
-
-	<section id="projects">
-		<h2>My projects</h2>
-		<p>Here are my project lists</p>
-		
-	</section>
-	<section id="contact">
-		<h2>Contact Me</h2>
-
-		<form>
-
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" required>
-
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" required>
-
-			<label for="message">Message:</label>
-			<textarea id="message" name="message" required></textarea>
-
-			<button type="submit">Send</button>
-		</form>
+	
+<div class="menu-icon">
+    <i id="menu-button" class="fa-solid fa-bars" onclick="openMenu()"></i>
+    <span id="close-btn" class="close_btn" onclick="closeMenu()">&#9746;</span>
+</div>
 
 
-	</section>
+</nav>
+<div class="hero-content">
+	<h1>Siddhant KC</h1>
+	<p class="sub-heading">Commercial Model</p>
+</div>
+</header>
 
+<div id="about">
+	<div class="about-col-1">
+		<img src="video&photo/photo1.jpg" class="photo">
+	</div>
+	<div class="about-col-2">
+		<h1 class="title">About me </h1>
+		<p class="sub-title">I’m Siddhant KC — a model and creative artist with a strong focus on fashion, fitness, and commercial work.<br> I love creating visually powerful content that blends style, confidence, and authenticity.<br>Driven by passion and discipline, I aim to grow as a modern youth icon while collaborating with brands and bringing bold ideas to life.</p>
+	</div>
+	
+</div>
+
+<div id="projects">
+	<div class="about-projects">Projects Worked With</div>
+	<div class="projects-logo">
+	<img src="drive/IMG_1509.PNG" class="first">
+	<img src="drive/IMG_1507.JPG" class="second">
+	<img src="drive/IMG_1508.PNG" class="third">
+	<img src="drive/IMG_1510.PNG" class="fourth">
+	</div>
+</div>
+
+<div id="photos">
+	<div class="photo-content">Photo Gallery</div>
+	<div class="photo-gallery">
+	<img src="drive/IMG_1497.JPG" class="pg-first">
+	<img src="drive/IMG_1498.jpg" class="pg-second">
+
+</div>
+</div>
+
+<div id="contact">
+	<div class="contact-left">
+		<h1 class="sub-title">Contact me</h1>
+		<p><i class="fa-solid fa-paper-plane"></i>siddhantkc95@gmail.com</p>
+		<p><i class="fa-solid fa-phone"></i>9766248636</p>
+		<div class="social-icons">
+			<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+			<a href=""><i class="fa-brands fa-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-tiktok"></i></a>
+		</div>
+	</div>
+
+	<div class="contact-right">
+    <div id="form-message"></div>
+
+    <form id="contact-form-id">
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="Messages" rows="6" placeholder="Your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</div>
+
+<footer id="footer">
+        <p class="footer-copy">© 2025 Siddhant KC | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
 </html>
